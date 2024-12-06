@@ -1,0 +1,250 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+.body {
+	background: #f9f9f9;
+    background-image: none;
+	height: 100%;
+}
+#content {
+	width: 62%;
+	margin: 0 auto !important;
+	text-align: center;
+	background-color: white;
+	padding: 30px 10px !important;
+}
+#masthead { 
+	width: 62%;
+	margin: 0 auto !important;
+	text-align: center;
+	background-color: white;
+	margin-top: -3% !important;
+ }
+#manage {
+	margin: 0 auto !important;
+	text-align: center;
+}
+#signup {
+	margin: 0 auto !important;
+	text-align: center;
+	width: 100%;
+}
+.ui.form {
+	margin: 0 auto;
+	width: 70%;
+}
+.hidethis {
+	display: none !important;
+}
+.column {
+	padding: 5px !important;
+}
+.headerText {
+	padding: 20px !important;
+}
+.divider {
+	margin: 20px 0;
+}
+.orange {
+	color: rgb(244, 164, 32);
+}
+.red {
+	color: rgb(137, 33, 26);
+}
+.header {
+	text-align: center;
+	margin: 0 auto;
+	padding: 80px 0 15px 0 !important;
+}
+.header a {
+	color: #fff;
+}
+
+p, h1, h2, h5 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333333;
+}
+h1 { font-size: 2em; }
+.ui.form a {
+	color: rgb(137, 33, 26);
+}
+.ui.form a:hover {
+	color: rgb(244, 164, 32);
+}
+.ui.form .center.aligned {
+	text-align: center;
+	margin: 0 auto;
+}
+.ui.form .field > label {
+	color: #F2EACF;
+	position: inherit !important;
+	height: 20px !important;
+	max-height: 20px !important;
+	background: transparent !important;
+	color: #000 !important;
+	text-align: left;
+}
+.ui.checkbox .box, .ui.checkbox label {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.ui.checkbox .box, .ui.checkbox label span { font-weight: normal; }
+
+#welcomePersonalized {
+	margin-top: 20px;
+	margin-bottom: -20px;	
+}
+#footer { padding: 30px !important; }
+.footer {
+	font-size: 90%;
+	margin: 0 auto;
+	background-color: #f9f9f9;
+	text-align: center;
+	width: 62%;
+	padding: 20px;
+}
+.privacy {
+	width: 80%;
+	color: #A3923B !important;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+#EmmaSubmit {
+	margin-top: 20px;
+}
+
+.ui.green.button {
+	background-color: rgba(109,187,1, 1) !important;
+	margin-top: 20px;
+}
+.ui.green.button:hover {
+	background-color: rgba(79,136,1, 1) !important;
+}
+.ui.green.inverted.button {
+	color: rgb(109,187,1, 1);
+	box-shadow: 0 0 0 2px rgba(109,187,1, 1) inset !important;
+	background: #fff !important;
+}
+.ui.green.inverted.button:hover {
+	color: rgb(255, 255, 255, 1);
+	box-shadow: 0 0 0 2px rgba(79,136,1) inset !important;
+	background: rgba(109,187,1, 1) !important;
+}
+.ui.button {
+	border-radius: 0;
+}
+
+.field {
+	border: 0;
+}
+.ui.grid>.stackable.stackable.row>.column, .ui.stackable.grid>.column.grid>.column, .ui.stackable.grid>.column.row>.column, .ui.stackable.grid>.column:not(.row), .ui.stackable.grid>.row>.column, .ui.stackable.grid>.row>.wide.column, .ui.stackable.grid>.wide.column {
+		padding: 18px !important;
+	}
+
+ /* placeholder */
+    ::-webkit-input-placeholder {
+       text-align: left;
+       font-size: 1em !important;
+       opacity: 0.8 !important;
+       font-weight: normal !important;
+       color: #A3923B !important;
+       font-family: "Times New Roman", Times, serif;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+       text-align: left;
+       font-size: 1em !important;
+       opacity: 0.8 !important;
+       font-weight: normal !important;
+       color: #A3923B !important;
+       font-family: "Times New Roman", Times, serif;
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+       text-align: left; 
+       font-size: 1em !important;
+       opacity: 0.8 !important;
+       font-weight: normal !important;
+       color: #A3923B !important;
+       font-family: "Times New Roman", Times, serif;
+    }
+
+    :-ms-input-placeholder {  
+       text-align: left; 
+       font-size: 1em !important;
+       opacity: 0.8 !important;
+       font-weight: normal !important;
+       color: #A3923B !important;
+       font-family: "Times New Roman", Times, serif;
+    }
+
+@media only screen and (max-width:768px) {
+	#masthead {
+		width: 100%;
+		margin-top: -13% !important;
+	}
+	#content {
+		width: 100%;
+		margin: 20px auto;
+		text-align: center;
+	}
+	#footer { 
+		width: 100% !important;
+	 }
+	.ui.button {
+		width: 100%;
+	}
+	.privacy {
+		width: 90%;
+	}
+	#menu li {
+		font-size: 12px;
+	}
+	.ui.image.large {
+		max-width: 270px !important;
+	}
+	h1, h2, h3, h4, h5 {
+		font-size: 100%;
+	}
+	.ui.grid>.stackable.stackable.row>.column, .ui.stackable.grid>.column.grid>.column, .ui.stackable.grid>.column.row>.column, .ui.stackable.grid>.column:not(.row), .ui.stackable.grid>.row>.column, .ui.stackable.grid>.row>.wide.column, .ui.stackable.grid>.wide.column {
+		padding: 8px !important;
+	}
+	.ui.grid .ui.stackable.grid, .ui.segment:not(.vertical) .ui.stackable.page.grid {
+		margin: 0 !important;
+	}
+	.headerText {
+		padding: 10px !important;
+	}
+	#menu {
+		margin-left: -10%;
+	}
+	.footerImage {
+		max-width: 90%;
+	}
+}
+
+#footer-branches {
+	margin-top: 30px;
+	
+}
+
+#footer-menu {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+#footer-logo {
+	max-width: 90px
+}
+
+@media (min-width: 768px) {
+	.branch {
+		width: 33%;
+		float: left;
+	}
+}

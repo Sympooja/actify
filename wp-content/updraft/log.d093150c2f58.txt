@@ -1,0 +1,844 @@
+0000.000 (0) Opened log file at time: Mon, 04 Nov 2024 06:27:31 +0000 on https://spinfire.com
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.4.3 PHP: 7.4.33.6 (apache2handler, Linux pod-100142:apache2_74:v0.5.4 5.4.0-1089-gcp #97~18.04.1-Ubuntu SMP Wed Sep 28 03:32:39 UTC 2022 x86_64) MySQL: 8.0.37-29 (max packet size=16777216) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 23.9M | 2M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: Unknown
+0000.012 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.035 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.040 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2024-11-04 06:27:31
+0000.045 (0) Semaphore (fd, wp_options) reset to 1
+0000.050 (0) Set semaphore last lock (fd) time to 2024-11-04 06:27:31
+0000.052 (0) Semaphore lock (fd) complete
+0000.063 (0) Backup run: resumption=0, nonce=d093150c2f58, file_nonce=d093150c2f58 begun at=1730701651 (0s ago), job type=backup
+0000.068 (0) Scheduling a resumption (1) after 300 seconds (1730701951) in case this run gets aborted
+0000.182 (0) Checking if we have a zip executable available
+0000.188 (0) Creation of backups of directories: beginning
+0000.198 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.884 (0) Total entities for the zip file: 3200 directories, 16267 files (0 skipped as non-modified), 206.2 MB
+0002.898 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.906 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.914 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.921 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.928 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.935 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0002.942 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0002.950 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0002.957 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0002.966 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0002.970 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.8 MB, 16267 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0007.007 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 1100 files added (on-disk size: 7219.5 KB)
+0007.014 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 1200 files added (on-disk size: 7219.5 KB)
+0007.021 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 1300 files added (on-disk size: 7219.5 KB)
+0007.027 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 1400 files added (on-disk size: 7219.5 KB)
+0007.034 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 1500 files added (on-disk size: 7219.5 KB)
+0007.041 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 1600 files added (on-disk size: 7219.5 KB)
+0007.049 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 1700 files added (on-disk size: 7219.5 KB)
+0007.056 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 1800 files added (on-disk size: 7219.5 KB)
+0007.063 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 1900 files added (on-disk size: 7219.5 KB)
+0007.071 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 2000 files added (on-disk size: 7219.5 KB)
+0007.074 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.8 MB, 16267 files batched, 1001 (2002) added so far); re-opening (prior size: 7219.5 KB)
+0008.803 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 2100 files added (on-disk size: 9578.8 KB)
+0008.811 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 2200 files added (on-disk size: 9578.8 KB)
+0008.819 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 2300 files added (on-disk size: 9578.8 KB)
+0008.826 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 2400 files added (on-disk size: 9578.8 KB)
+0008.833 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 2500 files added (on-disk size: 9578.8 KB)
+0008.840 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 2600 files added (on-disk size: 9578.8 KB)
+0008.847 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 2700 files added (on-disk size: 9578.8 KB)
+0008.853 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 2800 files added (on-disk size: 9578.8 KB)
+0008.860 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 2900 files added (on-disk size: 9578.8 KB)
+0008.869 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 3000 files added (on-disk size: 9578.8 KB)
+0008.872 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.5 MB, 16267 files batched, 1001 (3003) added so far); re-opening (prior size: 9578.8 KB)
+0011.488 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 3100 files added (on-disk size: 11965.4 KB)
+0011.496 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 3200 files added (on-disk size: 11965.4 KB)
+0011.504 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 3300 files added (on-disk size: 11965.4 KB)
+0011.511 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 3400 files added (on-disk size: 11965.4 KB)
+0011.518 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 3500 files added (on-disk size: 11965.4 KB)
+0011.525 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 3600 files added (on-disk size: 11965.4 KB)
+0011.532 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 3700 files added (on-disk size: 11965.4 KB)
+0011.541 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 3800 files added (on-disk size: 11965.4 KB)
+0011.547 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 3900 files added (on-disk size: 11965.4 KB)
+0011.553 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 4000 files added (on-disk size: 11965.4 KB)
+0011.557 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.9 MB, 16267 files batched, 1001 (4004) added so far); re-opening (prior size: 11965.4 KB)
+0014.681 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 4100 files added (on-disk size: 16037.1 KB)
+0014.688 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 4200 files added (on-disk size: 16037.1 KB)
+0014.695 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 4300 files added (on-disk size: 16037.1 KB)
+0014.703 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 4400 files added (on-disk size: 16037.1 KB)
+0014.710 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 4500 files added (on-disk size: 16037.1 KB)
+0014.716 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 4600 files added (on-disk size: 16037.1 KB)
+0014.723 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 4700 files added (on-disk size: 16037.1 KB)
+0014.729 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 4800 files added (on-disk size: 16037.1 KB)
+0014.736 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 4900 files added (on-disk size: 16037.1 KB)
+0014.743 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 5000 files added (on-disk size: 16037.1 KB)
+0014.747 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.1 MB, 16267 files batched, 1001 (5005) added so far); re-opening (prior size: 16037.1 KB)
+0015.738 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 5100 files added (on-disk size: 17023.4 KB)
+0015.746 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 5200 files added (on-disk size: 17023.4 KB)
+0015.754 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 5300 files added (on-disk size: 17023.4 KB)
+0015.762 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 5400 files added (on-disk size: 17023.4 KB)
+0015.768 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 5500 files added (on-disk size: 17023.4 KB)
+0015.775 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 5600 files added (on-disk size: 17023.4 KB)
+0015.783 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 5700 files added (on-disk size: 17023.4 KB)
+0015.790 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 5800 files added (on-disk size: 17023.4 KB)
+0015.796 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 5900 files added (on-disk size: 17023.4 KB)
+0015.803 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 6000 files added (on-disk size: 17023.4 KB)
+0015.807 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.5 MB, 16267 files batched, 1001 (6006) added so far); re-opening (prior size: 17023.4 KB)
+0017.778 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 6100 files added (on-disk size: 19461.1 KB)
+0017.785 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 6200 files added (on-disk size: 19461.1 KB)
+0017.793 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 6300 files added (on-disk size: 19461.1 KB)
+0017.800 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 6400 files added (on-disk size: 19461.1 KB)
+0017.808 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 6500 files added (on-disk size: 19461.1 KB)
+0017.815 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 6600 files added (on-disk size: 19461.1 KB)
+0017.821 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 6700 files added (on-disk size: 19461.1 KB)
+0017.828 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 6800 files added (on-disk size: 19461.1 KB)
+0017.835 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 6900 files added (on-disk size: 19461.1 KB)
+0017.842 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 7000 files added (on-disk size: 19461.1 KB)
+0017.846 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.5 MB, 16267 files batched, 1001 (7007) added so far); re-opening (prior size: 19461.1 KB)
+0021.346 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 7100 files added (on-disk size: 25697.4 KB)
+0021.354 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 7200 files added (on-disk size: 25697.4 KB)
+0021.361 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 7300 files added (on-disk size: 25697.4 KB)
+0021.368 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 7400 files added (on-disk size: 25697.4 KB)
+0021.376 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 7500 files added (on-disk size: 25697.4 KB)
+0021.383 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 7600 files added (on-disk size: 25697.4 KB)
+0021.392 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 7700 files added (on-disk size: 25697.4 KB)
+0021.400 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 7800 files added (on-disk size: 25697.4 KB)
+0021.408 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 7900 files added (on-disk size: 25697.4 KB)
+0021.415 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 8000 files added (on-disk size: 25697.4 KB)
+0021.419 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.3 MB, 16267 files batched, 1001 (8008) added so far); re-opening (prior size: 25697.4 KB)
+0022.722 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 8100 files added (on-disk size: 26641.9 KB)
+0022.730 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 8200 files added (on-disk size: 26641.9 KB)
+0022.737 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 8300 files added (on-disk size: 26641.9 KB)
+0022.744 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 8400 files added (on-disk size: 26641.9 KB)
+0022.751 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 8500 files added (on-disk size: 26641.9 KB)
+0022.758 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 8600 files added (on-disk size: 26641.9 KB)
+0022.765 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 8700 files added (on-disk size: 26641.9 KB)
+0022.771 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 16267 files batched, 756 (8764) added so far); re-opening (prior size: 26641.9 KB)
+0028.064 (0) A useful amount of data was added after this amount of zip processing: 6 s (normalised: 5.9 s, rate: 4306.4 KB/s)
+0028.071 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.96932697296, normalised_time=5.94459042521, max_time=28.0672130585, data points known=1, old_max_bytes=26214400, new_max_bytes=74262322)
+0028.248 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 8800 files added (on-disk size: 33700.8 KB)
+0028.275 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 8900 files added (on-disk size: 33700.8 KB)
+0028.295 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 9000 files added (on-disk size: 33700.8 KB)
+0028.320 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 9100 files added (on-disk size: 33700.8 KB)
+0028.341 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 9200 files added (on-disk size: 33700.8 KB)
+0028.354 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 9300 files added (on-disk size: 33700.8 KB)
+0028.369 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 9400 files added (on-disk size: 33700.8 KB)
+0028.384 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 9500 files added (on-disk size: 33700.8 KB)
+0028.395 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 9600 files added (on-disk size: 33700.8 KB)
+0028.404 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 9700 files added (on-disk size: 33700.8 KB)
+0028.411 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.8 MB, 16267 files batched, 1001 (9765) added so far); re-opening (prior size: 33700.8 KB)
+0033.430 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 9800 files added (on-disk size: 39531.6 KB)
+0033.440 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 9900 files added (on-disk size: 39531.6 KB)
+0033.449 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 10000 files added (on-disk size: 39531.6 KB)
+0033.458 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 10100 files added (on-disk size: 39531.6 KB)
+0033.469 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 10200 files added (on-disk size: 39531.6 KB)
+0033.481 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 10300 files added (on-disk size: 39531.6 KB)
+0033.490 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 10400 files added (on-disk size: 39531.6 KB)
+0033.503 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 10500 files added (on-disk size: 39531.6 KB)
+0033.518 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 10600 files added (on-disk size: 39531.6 KB)
+0033.530 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 10700 files added (on-disk size: 39531.6 KB)
+0033.537 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (42.7 MB, 16267 files batched, 1001 (10766) added so far); re-opening (prior size: 39531.6 KB)
+0040.498 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 10800 files added (on-disk size: 51036.6 KB)
+0040.507 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 10900 files added (on-disk size: 51036.6 KB)
+0040.516 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 11000 files added (on-disk size: 51036.6 KB)
+0040.524 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 11100 files added (on-disk size: 51036.6 KB)
+0040.533 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 11200 files added (on-disk size: 51036.6 KB)
+0040.542 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 11300 files added (on-disk size: 51036.6 KB)
+0040.550 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 11400 files added (on-disk size: 51036.6 KB)
+0040.558 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 11500 files added (on-disk size: 51036.6 KB)
+0040.566 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 11600 files added (on-disk size: 51036.6 KB)
+0040.575 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 11700 files added (on-disk size: 51036.6 KB)
+0040.582 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.1 MB, 16267 files batched, 1001 (11767) added so far); re-opening (prior size: 51036.6 KB)
+0043.936 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 11800 files added (on-disk size: 54998.1 KB)
+0043.944 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 11900 files added (on-disk size: 54998.1 KB)
+0043.954 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 12000 files added (on-disk size: 54998.1 KB)
+0043.962 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 12100 files added (on-disk size: 54998.1 KB)
+0043.971 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 12200 files added (on-disk size: 54998.1 KB)
+0043.979 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 12300 files added (on-disk size: 54998.1 KB)
+0043.988 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 12400 files added (on-disk size: 54998.1 KB)
+0043.998 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 12500 files added (on-disk size: 54998.1 KB)
+0044.006 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 12600 files added (on-disk size: 54998.1 KB)
+0044.015 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 12700 files added (on-disk size: 54998.1 KB)
+0044.021 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7 MB, 16267 files batched, 1001 (12768) added so far); re-opening (prior size: 54998.1 KB)
+0047.485 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 12800 files added (on-disk size: 57130.1 KB)
+0047.494 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 12900 files added (on-disk size: 57130.1 KB)
+0047.502 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 13000 files added (on-disk size: 57130.1 KB)
+0047.510 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 13100 files added (on-disk size: 57130.1 KB)
+0047.520 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 13200 files added (on-disk size: 57130.1 KB)
+0047.528 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 13300 files added (on-disk size: 57130.1 KB)
+0047.536 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 13400 files added (on-disk size: 57130.1 KB)
+0047.544 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 13500 files added (on-disk size: 57130.1 KB)
+0047.552 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 13600 files added (on-disk size: 57130.1 KB)
+0047.560 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 13700 files added (on-disk size: 57130.1 KB)
+0047.568 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.5 MB, 16267 files batched, 1001 (13769) added so far); re-opening (prior size: 57130.1 KB)
+0049.762 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 13800 files added (on-disk size: 58689.6 KB)
+0049.772 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 13900 files added (on-disk size: 58689.6 KB)
+0049.784 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 14000 files added (on-disk size: 58689.6 KB)
+0049.797 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 14100 files added (on-disk size: 58689.6 KB)
+0049.807 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 14200 files added (on-disk size: 58689.6 KB)
+0049.818 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 14300 files added (on-disk size: 58689.6 KB)
+0049.829 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 14400 files added (on-disk size: 58689.6 KB)
+0049.840 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 14500 files added (on-disk size: 58689.6 KB)
+0049.852 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 14600 files added (on-disk size: 58689.6 KB)
+0049.864 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 14700 files added (on-disk size: 58689.6 KB)
+0049.877 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.7 MB, 16267 files batched, 1001 (14770) added so far); re-opening (prior size: 58689.6 KB)
+0052.906 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 14800 files added (on-disk size: 60913.2 KB)
+0052.915 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 14900 files added (on-disk size: 60913.2 KB)
+0052.925 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 15000 files added (on-disk size: 60913.2 KB)
+0052.936 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 15100 files added (on-disk size: 60913.2 KB)
+0052.944 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 15200 files added (on-disk size: 60913.2 KB)
+0052.953 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 15300 files added (on-disk size: 60913.2 KB)
+0052.961 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 15400 files added (on-disk size: 60913.2 KB)
+0052.969 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 15500 files added (on-disk size: 60913.2 KB)
+0052.979 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 15600 files added (on-disk size: 60913.2 KB)
+0052.988 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 15700 files added (on-disk size: 60913.2 KB)
+0052.996 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5 MB, 16267 files batched, 1001 (15771) added so far); re-opening (prior size: 60913.2 KB)
+0055.474 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 15800 files added (on-disk size: 62426.7 KB)
+0055.482 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 15900 files added (on-disk size: 62426.7 KB)
+0055.490 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 16000 files added (on-disk size: 62426.7 KB)
+0055.501 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 16100 files added (on-disk size: 62426.7 KB)
+0055.511 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.tmp: 16200 files added (on-disk size: 62426.7 KB)
+0057.983 (0) Creating zip file manifest (backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.list-temp.tmp)
+0058.053 (0) Successfully created zip file manifest (size: 1613540)
+0059.226 (0) Created plugins zip (0) - 65319.3 KB in 59 s (1106.7 KB/s) (sha1: e6e61b23a524764831a4e78953d17b13e40958bf, sha256: a44d48e4e04c6a0fe5291c6ff71a0bc75d033b41d31a3559f51c78d675378c45)
+0059.255 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0059.257 (0) No remote despatch: user chose no remote backup service
+0059.260 (0) Recording as successfully uploaded: backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip
+0059.267 (0) Deleting zip manifest (backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip.list.tmp)
+0059.274 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0059.279 (0) Number of backup sets in history: 2; groups (db): 1
+0059.283 (0) Examining (for databases) backup set with group_id=0, nonce=460c1423ee7d, datestamp=1723189974 (Aug 09 2024 07:52:54)
+0059.285 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0059.289 (0) Examining (for databases) backup set with group_id=0, nonce=9f79bab6e744, datestamp=1717501077 (Jun 04 2024 11:37:57)
+0059.289 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0059.289 (0) Number of backup sets in history: 2; groups (files): 1
+0059.292 (0) Examining (for files) backup set with nonce=460c1423ee7d, datestamp=1723189974 (Aug 09 2024 07:52:54)
+0059.292 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0059.295 (0) Examining (for files) backup set with nonce=9f79bab6e744, datestamp=1717501077 (Jun 04 2024 11:37:57)
+0059.295 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0059.296 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0059.310 (0) Beginning creation of dump of themes (split every: 400 MB)
+0059.590 (0) Total entities for the zip file: 219 directories, 864 files (0 skipped as non-modified), 18 MB
+0059.598 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0059.605 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0059.612 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0059.619 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0059.626 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0059.633 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0059.640 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0059.648 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0062.394 (0) Creating zip file manifest (backup_2024-11-04-0627_SpinFire_d093150c2f58-themes.zip.list-temp.tmp)
+0062.401 (0) Successfully created zip file manifest (size: 59692)
+0062.557 (0) Created themes zip (0) - 13057.7 KB in 3.2 s (4030.2 KB/s) (sha1: 5c26f9a38190ecdca55671fe64fe41432e1d9c8c, sha256: fb8ad1cc37d131d2bfcbb2adc2124c873fe4f7f5c968c550892b53b9d0f6307d)
+0062.569 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0062.573 (0) No remote despatch: user chose no remote backup service
+0062.576 (0) Recording as successfully uploaded: backup_2024-11-04-0627_SpinFire_d093150c2f58-themes.zip
+0062.583 (0) Deleting zip manifest (backup_2024-11-04-0627_SpinFire_d093150c2f58-themes.zip.list.tmp)
+0062.590 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0062.594 (0) Number of backup sets in history: 2; groups (db): 1
+0062.597 (0) Examining (for databases) backup set with group_id=0, nonce=460c1423ee7d, datestamp=1723189974 (Aug 09 2024 07:52:54)
+0062.597 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0062.600 (0) Examining (for databases) backup set with group_id=0, nonce=9f79bab6e744, datestamp=1717501077 (Jun 04 2024 11:37:57)
+0062.600 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0062.600 (0) Number of backup sets in history: 2; groups (files): 1
+0062.604 (0) Examining (for files) backup set with nonce=460c1423ee7d, datestamp=1723189974 (Aug 09 2024 07:52:54)
+0062.604 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0062.608 (0) Examining (for files) backup set with nonce=9f79bab6e744, datestamp=1717501077 (Jun 04 2024 11:37:57)
+0062.608 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0062.608 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0062.624 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0062.629 (0) Looking for candidates to backup in: /nas/content/live/actify/wp-content/uploads
+0062.633 (0) finding files: wp-migrate-db: adding to list (1)
+0062.636 (0) finding files: wpcf7_uploads: adding to list (2)
+0062.639 (0) finding files: 2023: adding to list (3)
+0062.641 (0) finding files: 2024: adding to list (4)
+0062.644 (0) finding files: 2022: adding to list (5)
+0062.648 (0) finding files: 2021: adding to list (6)
+0062.651 (0) finding files: sucuri: adding to list (7)
+0062.655 (0) finding files: 2020: adding to list (8)
+0062.659 (0) finding files: wp-file-manager-pro: adding to list (9)
+0062.661 (0) finding files: cache: adding to list (10)
+0062.665 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0063.268 (0) Total entities for the zip file: 122 directories, 4494 files (0 skipped as non-modified), 772.7 MB
+0063.278 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0063.287 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0063.293 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 70.8 MB added on this batch (74 MB, 4494 files batched, 247 (247) added so far); re-opening (prior size: 0 KB)
+0069.643 (0) A useful amount of data was added after this amount of zip processing: 7.5 s (normalised: 7.2 s, rate: 10041.9 KB/s)
+0069.657 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 300 files added (on-disk size: 74585.8 KB)
+0069.663 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 400 files added (on-disk size: 74585.8 KB)
+0069.670 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 500 files added (on-disk size: 74585.8 KB)
+0069.678 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 70.8 MB added on this batch (78.1 MB, 4494 files batched, 348 (595) added so far); re-opening (prior size: 74585.8 KB)
+0076.110 (0) A useful amount of data was added after this amount of zip processing: 7 s (normalised: 6.4 s, rate: 11397.6 KB/s)
+0076.124 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 600 files added (on-disk size: 154593.8 KB)
+0076.132 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 700 files added (on-disk size: 154593.8 KB)
+0076.139 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 800 files added (on-disk size: 154593.8 KB)
+0076.143 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 70.8 MB added on this batch (71.3 MB, 4494 files batched, 251 (846) added so far); re-opening (prior size: 154593.8 KB)
+0082.560 (0) A useful amount of data was added after this amount of zip processing: 6.5 s (normalised: 6.4 s, rate: 11297.2 KB/s)
+0082.579 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 900 files added (on-disk size: 227662.7 KB)
+0082.587 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 1000 files added (on-disk size: 227662.7 KB)
+0082.595 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 1100 files added (on-disk size: 227662.7 KB)
+0082.603 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 1200 files added (on-disk size: 227662.7 KB)
+0082.611 (0) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 1300 files added (on-disk size: 227662.7 KB)
+0082.618 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 70.8 MB added on this batch (71.2 MB, 4494 files batched, 531 (1377) added so far); re-opening (prior size: 227662.7 KB)
+0299.471 (1) Opened log file at time: Mon, 04 Nov 2024 06:32:31 +0000 on https://spinfire.com
+0299.475 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.4.3 PHP: 7.4.33.6 (apache2handler, Linux pod-100142:apache2_74:v0.5.4 5.4.0-1089-gcp #97~18.04.1-Ubuntu SMP Wed Sep 28 03:32:39 UTC 2022 x86_64) MySQL: 8.0.37-29 (max packet size=16777216) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 21.5M | 2M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0299.480 (1) Free space on disk containing Updraft's temporary directory: Unknown
+0299.510 (1) Requesting backup semaphore lock (d093150c2f58)
+0299.517 (1) [Debug] Lock option (updraft_lock_d093150c2f58, wp_options) was created in the database
+0299.520 (1) [Info] Lock (updraft_lock_d093150c2f58, wp_options) acquired after initialising the database
+0299.524 (1) Backup run: resumption=1, nonce=d093150c2f58, file_nonce=d093150c2f58 begun at=1730701651 (300s ago), job type=backup, previous check-in=82.56s
+0299.529 (1) Scheduling a resumption (2) after 300 seconds (1730702251) in case this run gets aborted
+0299.539 (1) Checking if we have a zip executable available
+0299.542 (1) Creation of backups of directories: had begun; will resume
+0299.573 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0299.577 (1) backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip: this file has already been created (age: 242 s)
+0299.584 (1) Beginning creation of dump of themes (split every: 400 MB)
+0299.587 (1) backup_2024-11-04-0627_SpinFire_d093150c2f58-themes.zip: this file has already been created (age: 237 s)
+0299.594 (1) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0299.597 (1) Looking for candidates to backup in: /nas/content/live/actify/wp-content/uploads
+0299.600 (1) finding files: wp-migrate-db: adding to list (1)
+0299.603 (1) finding files: wpcf7_uploads: adding to list (2)
+0299.605 (1) finding files: 2023: adding to list (3)
+0299.607 (1) finding files: 2024: adding to list (4)
+0299.609 (1) finding files: 2022: adding to list (5)
+0299.612 (1) finding files: 2021: adding to list (6)
+0299.614 (1) finding files: sucuri: adding to list (7)
+0299.616 (1) finding files: 2020: adding to list (8)
+0299.619 (1) finding files: wp-file-manager-pro: adding to list (9)
+0299.621 (1) finding files: cache: adding to list (10)
+0299.623 (1) Beginning creation of dump of uploads (split every: 400 MB)
+0299.625 (1) File exists (/nas/content/live/actify/wp-content/updraft/backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1730701734, time_now=1730701951, diff=217)
+0299.635 (1) backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: Zip file already exists, with 846 files
+0299.814 (1) Total entities for the zip file: 122 directories, 4494 files (0 skipped as non-modified), 772.7 MB
+0299.824 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 100 files added (on-disk size: 227662.7 KB)
+0299.825 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 200 files added (on-disk size: 227662.7 KB)
+0299.826 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 300 files added (on-disk size: 227662.7 KB)
+0299.827 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 400 files added (on-disk size: 227662.7 KB)
+0299.828 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 500 files added (on-disk size: 227662.7 KB)
+0299.828 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 600 files added (on-disk size: 227662.7 KB)
+0299.829 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 700 files added (on-disk size: 227662.7 KB)
+0299.830 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 800 files added (on-disk size: 227662.7 KB)
+0299.832 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 900 files added (on-disk size: 227662.7 KB)
+0299.838 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 1000 files added (on-disk size: 227662.7 KB)
+0299.845 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 1100 files added (on-disk size: 227662.7 KB)
+0299.851 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 1200 files added (on-disk size: 227662.7 KB)
+0299.857 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 1300 files added (on-disk size: 227662.7 KB)
+0299.862 (1) Adding batch to zip file (UpdraftPlus_ZipArchive): over 70.8 MB added on this batch (71.2 MB, 4494 files batched, 531 (531) added so far); re-opening (prior size: 227662.7 KB)
+0305.763 (1) A useful amount of data was added after this amount of zip processing: 6.7 s (normalised: 6.6 s, rate: 10933.8 KB/s)
+0305.769 (1) Performance is good - will increase the amount of data we attempt to batch (time=6.66870498657, normalised_time=6.63279309866, max_time=83, data points known=1, old_max_bytes=74262322, new_max_bytes=209715200)
+0305.784 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 1400 files added (on-disk size: 300652.8 KB)
+0305.791 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 1500 files added (on-disk size: 300652.8 KB)
+0305.798 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 1600 files added (on-disk size: 300652.8 KB)
+0305.804 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 1700 files added (on-disk size: 300652.8 KB)
+0305.810 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 1800 files added (on-disk size: 300652.8 KB)
+0305.817 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp: 1900 files added (on-disk size: 300652.8 KB)
+0305.822 (1) Adding batch to zip file (UpdraftPlus_ZipArchive): possibly approaching split limit (97.3 MB, 558 (1089) files added so far); last ratio: 1; re-opening (prior size: 300652.8 KB)
+0320.890 (1) Zip size is at/near split limit (390.9 MB / 400 MB) - bumping index (from: 0)
+0325.199 (1) Creating zip file manifest (backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.list-temp.tmp)
+0325.208 (1) Successfully created zip file manifest (size: 107520)
+0325.215 (1) Created uploads zip (0) - 400325.3 KB in 21.3 s (18825.5 KB/s) (checksums: sha1: 2ff0433ff84f592131d580387af7913e975dfb93, sha256: 28f1a5eb3296784d777e1b6ee220b2d8013abdce549be708f60a2d35bef08295)
+0325.234 (1) Cloud backup selection (1/1): none with instance (1/1) (last)
+0325.237 (1) No remote despatch: user chose no remote backup service
+0325.241 (1) Recording as successfully uploaded: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip
+0325.248 (1) Deleting zip manifest (backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.list.tmp)
+0325.256 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0325.260 (1) Number of backup sets in history: 2; groups (db): 1
+0325.263 (1) Examining (for databases) backup set with group_id=0, nonce=460c1423ee7d, datestamp=1723189974 (Aug 09 2024 07:52:54)
+0325.265 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0325.268 (1) Examining (for databases) backup set with group_id=0, nonce=9f79bab6e744, datestamp=1717501077 (Jun 04 2024 11:37:57)
+0325.268 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0325.268 (1) Number of backup sets in history: 2; groups (files): 1
+0325.270 (1) Examining (for files) backup set with nonce=460c1423ee7d, datestamp=1723189974 (Aug 09 2024 07:52:54)
+0325.270 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0325.272 (1) Examining (for files) backup set with nonce=9f79bab6e744, datestamp=1717501077 (Jun 04 2024 11:37:57)
+0325.272 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0325.272 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0325.283 (1) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1090) files added so far); re-opening (prior size: 0 KB)
+0325.316 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 2000 files added (on-disk size: 17.5 KB)
+0325.323 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 2100 files added (on-disk size: 17.5 KB)
+0325.329 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 2200 files added (on-disk size: 17.5 KB)
+0325.337 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 2300 files added (on-disk size: 17.5 KB)
+0325.344 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 2400 files added (on-disk size: 17.5 KB)
+0325.350 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 2500 files added (on-disk size: 17.5 KB)
+0325.357 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 2600 files added (on-disk size: 17.5 KB)
+0325.363 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 2700 files added (on-disk size: 17.5 KB)
+0325.370 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 2800 files added (on-disk size: 17.5 KB)
+0325.377 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 2900 files added (on-disk size: 17.5 KB)
+0325.381 (1) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (192.4 MB, 4494 files batched, 1001 (2091) added so far); re-opening (prior size: 17.5 KB)
+0343.440 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 3000 files added (on-disk size: 197160 KB)
+0343.447 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 3100 files added (on-disk size: 197160 KB)
+0343.455 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 3200 files added (on-disk size: 197160 KB)
+0343.461 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 3300 files added (on-disk size: 197160 KB)
+0343.469 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 3400 files added (on-disk size: 197160 KB)
+0343.477 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 3500 files added (on-disk size: 197160 KB)
+0343.485 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 3600 files added (on-disk size: 197160 KB)
+0343.493 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 3700 files added (on-disk size: 197160 KB)
+0343.501 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 3800 files added (on-disk size: 197160 KB)
+0343.509 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 3900 files added (on-disk size: 197160 KB)
+0343.514 (1) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (117.8 MB, 4494 files batched, 1001 (3092) added so far); re-opening (prior size: 197160 KB)
+0363.336 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 4000 files added (on-disk size: 317548 KB)
+0363.344 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 4100 files added (on-disk size: 317548 KB)
+0363.353 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 4200 files added (on-disk size: 317548 KB)
+0363.362 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 4300 files added (on-disk size: 317548 KB)
+0363.370 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.tmp: 4400 files added (on-disk size: 317548 KB)
+0377.603 (1) Creating zip file manifest (backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.list-temp.tmp)
+0377.614 (1) Successfully created zip file manifest (size: 149853)
+0382.452 (1) Created uploads zip (1) - 389496.5 KB in 57.2 s (6805.7 KB/s) (sha1: 41322ea75c2b73e8ab35f9989324f802f0d60458, sha256: cec2bdf9f24a9a74931780fa67ed07f305d93032f3ec1bcafd682ef7b5b5b89c)
+0382.456 (1) Deleting old temporary file: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip.tmp.vn6hvd
+0382.478 (1) Cloud backup selection (1/1): none with instance (1/1) (last)
+0382.481 (1) No remote despatch: user chose no remote backup service
+0382.484 (1) Recording as successfully uploaded: backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip
+0382.489 (1) Deleting zip manifest (backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip.list.tmp)
+0382.497 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0382.501 (1) Number of backup sets in history: 2; groups (db): 1
+0382.504 (1) Examining (for databases) backup set with group_id=0, nonce=460c1423ee7d, datestamp=1723189974 (Aug 09 2024 07:52:54)
+0382.507 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0382.509 (1) Examining (for databases) backup set with group_id=0, nonce=9f79bab6e744, datestamp=1717501077 (Jun 04 2024 11:37:57)
+0382.509 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0382.509 (1) Number of backup sets in history: 2; groups (files): 1
+0382.512 (1) Examining (for files) backup set with nonce=460c1423ee7d, datestamp=1723189974 (Aug 09 2024 07:52:54)
+0382.512 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0382.515 (1) Examining (for files) backup set with nonce=9f79bab6e744, datestamp=1717501077 (Jun 04 2024 11:37:57)
+0382.515 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0382.515 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0382.530 (1) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0382.615 (1) Total entities for the zip file: 28 directories, 126 files (0 skipped as non-modified), 0.9 MB
+0382.622 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-mu-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0383.141 (1) Creating zip file manifest (backup_2024-11-04-0627_SpinFire_d093150c2f58-mu-plugins.zip.list-temp.tmp)
+0383.145 (1) Successfully created zip file manifest (size: 8618)
+0383.169 (1) Created mu-plugins zip (0) - 601.2 KB in 0.6 s (949.8 KB/s) (sha1: 33224390a57d6c16c0b36497e074ac49e7420a47, sha256: 8d422249e732e4f7756a71641eac31a6a6a1bd26b245ad9e951a4fa58908774b)
+0383.181 (1) Cloud backup selection (1/1): none with instance (1/1) (last)
+0383.185 (1) No remote despatch: user chose no remote backup service
+0383.188 (1) Recording as successfully uploaded: backup_2024-11-04-0627_SpinFire_d093150c2f58-mu-plugins.zip
+0383.197 (1) Deleting zip manifest (backup_2024-11-04-0627_SpinFire_d093150c2f58-mu-plugins.zip.list.tmp)
+0383.205 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0383.209 (1) Number of backup sets in history: 2; groups (db): 1
+0383.212 (1) Examining (for databases) backup set with group_id=0, nonce=460c1423ee7d, datestamp=1723189974 (Aug 09 2024 07:52:54)
+0383.212 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0383.215 (1) Examining (for databases) backup set with group_id=0, nonce=9f79bab6e744, datestamp=1717501077 (Jun 04 2024 11:37:57)
+0383.215 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0383.215 (1) Number of backup sets in history: 2; groups (files): 1
+0383.217 (1) Examining (for files) backup set with nonce=460c1423ee7d, datestamp=1723189974 (Aug 09 2024 07:52:54)
+0383.217 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0383.220 (1) Examining (for files) backup set with nonce=9f79bab6e744, datestamp=1717501077 (Jun 04 2024 11:37:57)
+0383.220 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0383.221 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0383.237 (1) Beginning backup of other directories found in the content directory (index: 0)
+0383.241 (1) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0383.244 (1) Looking for candidates to backup in: /nas/content/live/actify/wp-content
+0383.247 (1) finding files: temp: adding to list (1)
+0383.249 (1) finding files: upgrade: skipping: excluded by options
+0383.252 (1) finding files: languages: adding to list (2)
+0383.255 (1) finding files: upgrade-temp-backup: adding to list (3)
+0383.258 (1) finding files: mysql.sql: skipping: excluded by options
+0383.260 (1) finding files: advanced-cache.php: adding to list (4)
+0383.263 (1) finding files: drop-ins: adding to list (5)
+0383.264 (1) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0383.267 (1) finding files: updraft: skipping: this is the updraft directory
+0383.268 (1) finding files: themes: skipping: this is the themes directory
+0383.271 (1) finding files: plugins: skipping: this is the plugins directory
+0383.273 (1) finding files: index.php: adding to list (6)
+0383.276 (1) finding files: uploads: skipping: this is the uploads directory
+0383.280 (1) finding files: storage: adding to list (7)
+0383.460 (1) Total entities for the zip file: 11 directories, 197 files (0 skipped as non-modified), 4.7 MB
+0383.468 (1) Zip: backup_2024-11-04-0627_SpinFire_d093150c2f58-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0384.535 (1) Creating zip file manifest (backup_2024-11-04-0627_SpinFire_d093150c2f58-others.zip.list-temp.tmp)
+0384.539 (1) Successfully created zip file manifest (size: 13083)
+0384.577 (1) Created others zip (0) - 1160.4 KB in 1.3 s (899.7 KB/s) (sha1: 63beaa9c1da4a2df97053bf8bdcdb74fc4a25786, sha256: dc18e0446416e75f3c848152f8d5f71cfafb83a53c11bd906c9bd223d20cc65d)
+0384.590 (1) Cloud backup selection (1/1): none with instance (1/1) (last)
+0384.594 (1) No remote despatch: user chose no remote backup service
+0384.597 (1) Recording as successfully uploaded: backup_2024-11-04-0627_SpinFire_d093150c2f58-others.zip
+0384.604 (1) Deleting zip manifest (backup_2024-11-04-0627_SpinFire_d093150c2f58-others.zip.list.tmp)
+0384.612 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0384.616 (1) Number of backup sets in history: 2; groups (db): 1
+0384.620 (1) Examining (for databases) backup set with group_id=0, nonce=460c1423ee7d, datestamp=1723189974 (Aug 09 2024 07:52:54)
+0384.620 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0384.623 (1) Examining (for databases) backup set with group_id=0, nonce=9f79bab6e744, datestamp=1717501077 (Jun 04 2024 11:37:57)
+0384.623 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0384.623 (1) Number of backup sets in history: 2; groups (files): 1
+0384.625 (1) Examining (for files) backup set with nonce=460c1423ee7d, datestamp=1723189974 (Aug 09 2024 07:52:54)
+0384.625 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0384.628 (1) Examining (for files) backup set with nonce=9f79bab6e744, datestamp=1717501077 (Jun 04 2024 11:37:57)
+0384.628 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0384.628 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0384.659 (1) Saving backup status to database (elements: 11)
+0384.669 (1) Resuming creation of database dump (WordPress DB)
+0384.673 (1) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0384.709 (1) Table wp_options: Total expected rows (approximate): 1069
+0384.809 (1) Table wp_options: Rows added in this batch (next record: 942760): 1090 (uncompressed bytes in this segment=2311446) in 0.11 seconds
+0384.827 (1) Table wp_options: finishing file(s) (2, 326.2 KB)
+0384.840 (1) Table wp_users: Total expected rows (via COUNT): 6
+0384.843 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0384.850 (1) Table wp_users: Rows added in this batch (next record: 7): 6 (uncompressed bytes in this segment=2281) in 0.01 seconds
+0384.862 (1) Table wp_users: finishing file(s) (2, 1 KB)
+0384.879 (1) Table wp_usermeta: Total expected rows (via COUNT): 218
+0384.883 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0384.894 (1) Table wp_usermeta: Rows added in this batch (next record: 362): 218 (uncompressed bytes in this segment=25294) in 0.02 seconds
+0384.911 (1) Table wp_usermeta: finishing file(s) (2, 6.2 KB)
+0384.997 (1) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0385.004 (1) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.09 seconds
+0385.021 (1) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0385.047 (1) Table wp_comments: Total expected rows (via COUNT): 33
+0385.051 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0385.059 (1) Table wp_comments: Rows added in this batch (next record: 33): 33 (uncompressed bytes in this segment=16372) in 0.03 seconds
+0385.071 (1) Table wp_comments: finishing file(s) (2, 4.1 KB)
+0385.106 (1) Table wp_links: Total expected rows (via COUNT): 0
+0385.116 (1) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1496) in 0.03 seconds
+0385.129 (1) Table wp_links: finishing file(s) (2, 0.5 KB)
+0390.074 (1) Table wp_postmeta: Total expected rows (approximate): 360720
+0390.093 (1) [Warning] Table wp_postmeta has very many rows (360720) - we hope your web hosting company gives you enough resources to dump out that table in the backup. If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0600.948 (2) Opened log file at time: Mon, 04 Nov 2024 06:37:32 +0000 on https://spinfire.com
+0600.951 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.4.3 PHP: 7.4.33.6 (apache2handler, Linux pod-100142:apache2_74:v0.5.4 5.4.0-1089-gcp #97~18.04.1-Ubuntu SMP Wed Sep 28 03:32:39 UTC 2022 x86_64) MySQL: 8.0.37-29 (max packet size=16777216) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 21.5M | 2M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0600.953 (2) Free space on disk containing Updraft's temporary directory: Unknown
+0600.969 (2) Requesting backup semaphore lock (d093150c2f58)
+0600.975 (2) [Info] Lock (updraft_lock_d093150c2f58, wp_options) acquired
+0600.981 (2) Backup run: resumption=2, nonce=d093150c2f58, file_nonce=d093150c2f58 begun at=1730701651 (601s ago), job type=backup, previous check-in=85.65s
+0600.988 (2) Scheduling a resumption (3) after 300 seconds (1730702552) in case this run gets aborted
+0600.998 (2) Checking if we have a zip executable available
+0601.001 (2) Creation of backups of directories: already finished
+0601.005 (2) Saving backup status to database (elements: 11)
+0601.014 (2) Resuming creation of database dump (WordPress DB)
+0601.017 (2) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0601.026 (2) Table wp_options: corresponding file already exists; moving on
+0601.030 (2) Table wp_users: corresponding file already exists; moving on
+0601.033 (2) Table wp_usermeta: corresponding file already exists; moving on
+0601.036 (2) Table wp_commentmeta: corresponding file already exists; moving on
+0601.039 (2) Table wp_comments: corresponding file already exists; moving on
+0601.039 (2) Table wp_links: corresponding file already exists; moving on
+0601.045 (2) Table wp_postmeta: Total expected rows (approximate): 360720
+0601.050 (2) [Warning] Table wp_postmeta has very many rows (360720) - we hope your web hosting company gives you enough resources to dump out that table in the backup. If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0604.568 (2) Table wp_postmeta: Rows added in this batch (next record: 538594): 358304 (uncompressed bytes in this segment=37548069) in 3.53 seconds
+0606.843 (2) Table wp_postmeta: Total expected rows (via COUNT): 358304
+0606.851 (2) [Warning] Table wp_postmeta has very many rows (358304) - we hope your web hosting company gives you enough resources to dump out that table in the backup. If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0606.855 (2) Table wp_postmeta: Rows added in this batch (next record: 538594): 0 (uncompressed bytes in this segment=0) in 2.26 seconds
+0606.876 (2) Table wp_postmeta: finishing file(s) (3, 5054 KB)
+0606.923 (2) Table wp_posts: Total expected rows (approximate): 3139
+0607.063 (2) Table wp_posts: Rows added in this batch (next record: 6910): 3212 (uncompressed bytes in this segment=1242637) in 0.17 seconds
+0607.081 (2) Table wp_posts: finishing file(s) (2, 149.7 KB)
+0607.097 (2) Table wp_term_relationships: Total expected rows (approximate): 610
+0607.108 (2) Table wp_term_relationships: Rows added in this batch (next record: 100000): 610 (uncompressed bytes in this segment=10214) in 0.01 seconds
+0607.120 (2) Table wp_term_relationships: finishing file(s) (2, 2.1 KB)
+0607.138 (2) Table wp_term_taxonomy: Total expected rows (via COUNT): 36
+0607.142 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0607.151 (2) Table wp_term_taxonomy: Rows added in this batch (next record: 38): 36 (uncompressed bytes in this segment=2177) in 0.02 seconds
+0607.168 (2) Table wp_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0607.241 (2) Table wp_termmeta: Total expected rows (via COUNT): 60
+0607.245 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0607.258 (2) Table wp_termmeta: Rows added in this batch (next record: 62): 60 (uncompressed bytes in this segment=3006) in 0.08 seconds
+0607.276 (2) Table wp_termmeta: finishing file(s) (2, 0.8 KB)
+0607.290 (2) Table wp_terms: Total expected rows (via COUNT): 36
+0607.293 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0607.301 (2) Table wp_terms: Rows added in this batch (next record: 38): 36 (uncompressed bytes in this segment=2249) in 0.02 seconds
+0607.314 (2) Table wp_terms: finishing file(s) (2, 0.9 KB)
+0607.318 (2) Skipping table (lacks our prefix (wp_)): actify_commentmeta
+0607.322 (2) Skipping table (lacks our prefix (wp_)): actify_comments
+0607.324 (2) Skipping table (lacks our prefix (wp_)): actify_gf_addon_feed
+0607.331 (2) Skipping table (lacks our prefix (wp_)): actify_gf_draft_submissions
+0607.335 (2) Skipping table (lacks our prefix (wp_)): actify_gf_entry
+0607.339 (2) Skipping table (lacks our prefix (wp_)): actify_gf_entry_meta
+0607.341 (2) Skipping table (lacks our prefix (wp_)): actify_gf_entry_notes
+0607.344 (2) Skipping table (lacks our prefix (wp_)): actify_gf_form
+0607.349 (2) Skipping table (lacks our prefix (wp_)): actify_gf_form_meta
+0607.353 (2) Skipping table (lacks our prefix (wp_)): actify_gf_form_view
+0607.356 (2) Skipping table (lacks our prefix (wp_)): actify_links
+0607.359 (2) Skipping table (lacks our prefix (wp_)): actify_options
+0607.361 (2) Skipping table (lacks our prefix (wp_)): actify_postmeta
+0607.364 (2) Skipping table (lacks our prefix (wp_)): actify_posts
+0607.371 (2) Skipping table (lacks our prefix (wp_)): actify_rg_form
+0607.375 (2) Skipping table (lacks our prefix (wp_)): actify_rg_form_meta
+0607.383 (2) Skipping table (lacks our prefix (wp_)): actify_rg_form_view
+0607.387 (2) Skipping table (lacks our prefix (wp_)): actify_rg_incomplete_submissions
+0607.390 (2) Skipping table (lacks our prefix (wp_)): actify_rg_lead
+0607.392 (2) Skipping table (lacks our prefix (wp_)): actify_rg_lead_detail
+0607.396 (2) Skipping table (lacks our prefix (wp_)): actify_rg_lead_detail_long
+0607.400 (2) Skipping table (lacks our prefix (wp_)): actify_rg_lead_meta
+0607.403 (2) Skipping table (lacks our prefix (wp_)): actify_rg_lead_notes
+0607.405 (2) Skipping table (lacks our prefix (wp_)): actify_rg_salesforce
+0607.408 (2) Skipping table (lacks our prefix (wp_)): actify_rg_zapier
+0607.411 (2) Skipping table (lacks our prefix (wp_)): actify_term_relationships
+0607.413 (2) Skipping table (lacks our prefix (wp_)): actify_term_taxonomy
+0607.419 (2) Skipping table (lacks our prefix (wp_)): actify_termmeta
+0607.421 (2) Skipping table (lacks our prefix (wp_)): actify_terms
+0607.425 (2) Skipping table (lacks our prefix (wp_)): actify_usermeta
+0607.428 (2) Skipping table (lacks our prefix (wp_)): actify_users
+0607.433 (2) Skipping table (lacks our prefix (wp_)): actify_wpfm_backup
+0607.437 (2) Skipping table (lacks our prefix (wp_)): actify_yoast_seo_links
+0607.440 (2) Skipping table (lacks our prefix (wp_)): actify_yoast_seo_meta
+0607.505 (2) Table wp_cky_banners: Total expected rows (via COUNT): 2
+0607.508 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0607.522 (2) Table wp_cky_banners: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=20333) in 0.07 seconds
+0607.542 (2) Table wp_cky_banners: finishing file(s) (2, 2.9 KB)
+0607.590 (2) Table wp_cky_cookie_categories: Total expected rows (via COUNT): 5
+0607.594 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0607.598 (2) Table wp_cky_cookie_categories: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2786) in 0.05 seconds
+0607.613 (2) Table wp_cky_cookie_categories: finishing file(s) (2, 1.1 KB)
+0607.634 (2) Table wp_cky_cookies: Total expected rows (via COUNT): 0
+0607.642 (2) Table wp_cky_cookies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1327) in 0.02 seconds
+0607.659 (2) Table wp_cky_cookies: finishing file(s) (2, 0.5 KB)
+0607.672 (2) Table wp_icl_background_task: Total expected rows (via COUNT): 10
+0607.675 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0607.685 (2) Table wp_icl_background_task: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=7084) in 0.02 seconds
+0607.702 (2) Table wp_icl_background_task: finishing file(s) (2, 1.3 KB)
+0607.737 (2) Table wp_icl_content_status: Total expected rows (via COUNT): 0
+0607.745 (2) Table wp_icl_content_status: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=598) in 0.03 seconds
+0607.757 (2) Table wp_icl_content_status: finishing file(s) (2, 0.3 KB)
+0607.773 (2) Table wp_icl_core_status: Total expected rows (via COUNT): 0
+0607.777 (2) Table wp_icl_core_status: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=880) in 0.01 seconds
+0607.789 (2) Table wp_icl_core_status: finishing file(s) (2, 0.4 KB)
+0607.810 (2) Table wp_icl_flags: Total expected rows (via COUNT): 65
+0607.814 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0607.823 (2) Table wp_icl_flags: Rows added in this batch (next record: 65): 65 (uncompressed bytes in this segment=2409) in 0.02 seconds
+0607.850 (2) Table wp_icl_flags: finishing file(s) (2, 0.9 KB)
+0607.864 (2) Table wp_icl_languages: Total expected rows (via COUNT): 65
+0607.867 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0607.870 (2) Table wp_icl_languages: Rows added in this batch (next record: 65): 65 (uncompressed bytes in this segment=4664) in 0.01 seconds
+0607.884 (2) Table wp_icl_languages: finishing file(s) (2, 1.7 KB)
+0607.976 (2) Table wp_icl_languages_translations: Total expected rows (approximate): 4225
+0608.023 (2) Table wp_icl_languages_translations: Rows added in this batch (next record: 4225): 4225 (uncompressed bytes in this segment=148083) in 0.13 seconds
+0608.037 (2) Table wp_icl_languages_translations: finishing file(s) (2, 34.6 KB)
+0608.050 (2) Table wp_icl_locale_map: Total expected rows (approximate): 2
+0608.055 (2) Table wp_icl_locale_map: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=641) in 0.01 seconds
+0608.069 (2) Table wp_icl_locale_map: finishing file(s) (2, 0.4 KB)
+0608.084 (2) Table wp_icl_message_status: Total expected rows (via COUNT): 0
+0608.090 (2) Table wp_icl_message_status: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1041) in 0.01 seconds
+0608.102 (2) Table wp_icl_message_status: finishing file(s) (2, 0.5 KB)
+0608.154 (2) Table wp_icl_mo_files_domains: Total expected rows (via COUNT): 25
+0608.158 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0608.167 (2) Table wp_icl_mo_files_domains: Rows added in this batch (next record: 27): 25 (uncompressed bytes in this segment=7391) in 0.06 seconds
+0608.181 (2) Table wp_icl_mo_files_domains: finishing file(s) (2, 1.8 KB)
+0608.205 (2) Table wp_icl_node: Total expected rows (via COUNT): 0
+0608.217 (2) Table wp_icl_node: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=505) in 0.02 seconds
+0608.229 (2) Table wp_icl_node: finishing file(s) (2, 0.3 KB)
+0608.246 (2) Table wp_icl_reminders: Total expected rows (via COUNT): 0
+0608.250 (2) Table wp_icl_reminders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=620) in 0.01 seconds
+0608.262 (2) Table wp_icl_reminders: finishing file(s) (2, 0.3 KB)
+0608.278 (2) Table wp_icl_string_batches: Total expected rows (via COUNT): 0
+0608.283 (2) Table wp_icl_string_batches: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=537) in 0.01 seconds
+0608.296 (2) Table wp_icl_string_batches: finishing file(s) (2, 0.3 KB)
+0608.313 (2) Table wp_icl_string_packages: Total expected rows (via COUNT): 38
+0608.317 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0608.327 (2) Table wp_icl_string_packages: Rows added in this batch (next record: 39): 38 (uncompressed bytes in this segment=6198) in 0.02 seconds
+0608.339 (2) Table wp_icl_string_packages: finishing file(s) (2, 1.1 KB)
+0608.356 (2) Table wp_icl_string_positions: Total expected rows (via COUNT): 0
+0608.366 (2) Table wp_icl_string_positions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=662) in 0.02 seconds
+0608.382 (2) Table wp_icl_string_positions: finishing file(s) (2, 0.4 KB)
+0608.429 (2) Table wp_icl_string_status: Total expected rows (via COUNT): 0
+0608.435 (2) Table wp_icl_string_status: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=720) in 0.04 seconds
+0608.450 (2) Table wp_icl_string_status: finishing file(s) (2, 0.4 KB)
+0608.470 (2) Table wp_icl_string_translations: Total expected rows (via COUNT): 184
+0608.474 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0608.484 (2) Table wp_icl_string_translations: Rows added in this batch (next record: 225): 184 (uncompressed bytes in this segment=16965) in 0.03 seconds
+0608.502 (2) Table wp_icl_string_translations: finishing file(s) (2, 2.8 KB)
+0608.566 (2) Table wp_icl_strings: Total expected rows (via COUNT): 993
+0608.597 (2) Table wp_icl_strings: Rows added in this batch (next record: 1437): 993 (uncompressed bytes in this segment=201619) in 0.09 seconds
+0608.616 (2) Table wp_icl_strings: finishing file(s) (2, 46.5 KB)
+0608.673 (2) Table wp_icl_translate: Total expected rows (approximate): 1249
+0608.700 (2) Table wp_icl_translate: Rows added in this batch (next record: 1529): 1249 (uncompressed bytes in this segment=178517) in 0.07 seconds
+0608.717 (2) Table wp_icl_translate: finishing file(s) (2, 28.7 KB)
+0608.731 (2) Table wp_icl_translate_job: Total expected rows (via COUNT): 142
+0608.735 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0608.745 (2) Table wp_icl_translate_job: Rows added in this batch (next record: 148): 142 (uncompressed bytes in this segment=15069) in 0.02 seconds
+0608.758 (2) Table wp_icl_translate_job: finishing file(s) (2, 3.3 KB)
+0608.775 (2) Table wp_icl_translation_batches: Total expected rows (via COUNT): 49
+0608.779 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0608.787 (2) Table wp_icl_translation_batches: Rows added in this batch (next record: 49): 49 (uncompressed bytes in this segment=5264) in 0.02 seconds
+0608.799 (2) Table wp_icl_translation_batches: finishing file(s) (2, 1.3 KB)
+0608.841 (2) Table wp_icl_translation_downloads: Total expected rows (via COUNT): 0
+0608.850 (2) Table wp_icl_translation_downloads: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=647) in 0.04 seconds
+0608.863 (2) Table wp_icl_translation_downloads: finishing file(s) (2, 0.4 KB)
+0608.916 (2) Table wp_icl_translation_status: Total expected rows (via COUNT): 768
+0608.940 (2) Table wp_icl_translation_status: Rows added in this batch (next record: 846): 768 (uncompressed bytes in this segment=312326) in 0.07 seconds
+0608.958 (2) Table wp_icl_translation_status: finishing file(s) (2, 37.5 KB)
+0608.971 (2) Table wp_icl_translations: Total expected rows (approximate): 2749
+0609.022 (2) Table wp_icl_translations: Rows added in this batch (next record: 3147): 2749 (uncompressed bytes in this segment=146032) in 0.05 seconds
+0609.036 (2) Table wp_icl_translations: finishing file(s) (2, 22.9 KB)
+0609.050 (2) Table wp_redirection_404: Total expected rows (via COUNT): 0
+0609.054 (2) Table wp_redirection_404: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1223) in 0.01 seconds
+0609.067 (2) Table wp_redirection_404: finishing file(s) (2, 0.5 KB)
+0609.139 (2) Table wp_redirection_groups: Total expected rows (via COUNT): 3
+0609.143 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0609.152 (2) Table wp_redirection_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1038) in 0.08 seconds
+0609.164 (2) Table wp_redirection_groups: finishing file(s) (2, 0.5 KB)
+0609.179 (2) Table wp_redirection_items: Total expected rows (via COUNT): 148
+0609.182 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0609.194 (2) Table wp_redirection_items: Rows added in this batch (next record: 149): 148 (uncompressed bytes in this segment=36061) in 0.02 seconds
+0609.210 (2) Table wp_redirection_items: finishing file(s) (2, 5.7 KB)
+0609.225 (2) Table wp_redirection_logs: Total expected rows (via COUNT): 0
+0609.234 (2) Table wp_redirection_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1424) in 0.01 seconds
+0609.249 (2) Table wp_redirection_logs: finishing file(s) (2, 0.5 KB)
+0609.265 (2) Table wp_sales_force_credentials: Total expected rows (via COUNT): 3
+0609.268 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0609.278 (2) Table wp_sales_force_credentials: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1392) in 0.02 seconds
+0609.291 (2) Table wp_sales_force_credentials: finishing file(s) (2, 0.7 KB)
+0609.352 (2) Table wp_snippets: Total expected rows (via COUNT): 0
+0609.361 (2) Table wp_snippets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1169) in 0.06 seconds
+0609.377 (2) Table wp_snippets: finishing file(s) (2, 0.5 KB)
+0609.401 (2) Table wp_wp_phpmyadmin_extension__errors_log: Total expected rows (via COUNT): 0
+0609.405 (2) Table wp_wp_phpmyadmin_extension__errors_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=872) in 0.02 seconds
+0609.423 (2) Table wp_wp_phpmyadmin_extension__errors_log: finishing file(s) (2, 0.4 KB)
+0609.464 (2) Table wp_wpfm_backup: Total expected rows (via COUNT): 0
+0609.468 (2) Table wp_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=554) in 0.03 seconds
+0609.481 (2) Table wp_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0609.778 (2) Table wp_yoast_indexable: Total expected rows (approximate): 1136
+0609.857 (2) Table wp_yoast_indexable: Rows added in this batch (next record: 2729): 1234 (uncompressed bytes in this segment=682227) in 0.37 seconds
+0609.874 (2) Table wp_yoast_indexable: finishing file(s) (2, 91.7 KB)
+0609.887 (2) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 1216
+0609.933 (2) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 2000): 1247 (uncompressed bytes in this segment=23261) in 0.05 seconds
+0609.945 (2) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 3.7 KB)
+0610.038 (2) Table wp_yoast_migrations: Total expected rows (via COUNT): 24
+0610.042 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0610.051 (2) Table wp_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1283) in 0.10 seconds
+0610.065 (2) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0610.135 (2) Table wp_yoast_primary_term: Total expected rows (via COUNT): 150
+0610.140 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0610.151 (2) Table wp_yoast_primary_term: Rows added in this batch (next record: 162): 150 (uncompressed bytes in this segment=12528) in 0.08 seconds
+0610.163 (2) Table wp_yoast_primary_term: finishing file(s) (2, 2.7 KB)
+0610.199 (2) Table wp_yoast_seo_links: Total expected rows (via COUNT): 2
+0610.203 (2) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0610.213 (2) Table wp_yoast_seo_links: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=1218) in 0.04 seconds
+0610.228 (2) Table wp_yoast_seo_links: finishing file(s) (2, 0.5 KB)
+0610.233 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_options.table.tmpr942761.gz (1/85/fopen): adding to final database dump
+0610.244 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_options.table.gz (2/85/fopen): adding to final database dump
+0610.247 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_users.table.tmpr8.gz (3/85/fopen): adding to final database dump
+0610.249 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_users.table.gz (4/85/fopen): adding to final database dump
+0610.252 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_usermeta.table.tmpr363.gz (5/85/fopen): adding to final database dump
+0610.255 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_usermeta.table.gz (6/85/fopen): adding to final database dump
+0610.260 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_commentmeta.table.tmpr0.gz (7/85/fopen): adding to final database dump
+0610.263 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_commentmeta.table.gz (8/85/fopen): adding to final database dump
+0610.264 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_comments.table.tmpr34.gz (9/85/fopen): adding to final database dump
+0610.268 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_comments.table.gz (10/85/fopen): adding to final database dump
+0610.271 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_links.table.tmpr0.gz (11/85/fopen): adding to final database dump
+0610.273 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_links.table.gz (12/85/fopen): adding to final database dump
+0610.277 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_postmeta.table.tmpr538594.gz (13/85/fopen): adding to final database dump
+0610.356 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_postmeta.table.tmpr538595.gz (14/85/fopen): adding to final database dump
+0610.360 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_postmeta.table.gz (15/85/fopen): adding to final database dump
+0610.364 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_posts.table.tmpr6911.gz (16/85/fopen): adding to final database dump
+0610.374 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_posts.table.gz (17/85/fopen): adding to final database dump
+0610.379 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_term_relationships.table.tmpr100001.gz (18/85/fopen): adding to final database dump
+0610.382 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_term_relationships.table.gz (19/85/fopen): adding to final database dump
+0610.387 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_term_taxonomy.table.tmpr39.gz (20/85/fopen): adding to final database dump
+0610.392 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_term_taxonomy.table.gz (21/85/fopen): adding to final database dump
+0610.398 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_termmeta.table.tmpr63.gz (22/85/fopen): adding to final database dump
+0610.403 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_termmeta.table.gz (23/85/fopen): adding to final database dump
+0610.409 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_terms.table.tmpr39.gz (24/85/fopen): adding to final database dump
+0610.412 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_terms.table.gz (25/85/fopen): adding to final database dump
+0610.415 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_cky_banners.table.tmpr3.gz (26/85/fopen): adding to final database dump
+0610.421 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_cky_banners.table.gz (27/85/fopen): adding to final database dump
+0610.425 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_cky_cookie_categories.table.tmpr6.gz (28/85/fopen): adding to final database dump
+0610.429 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_cky_cookie_categories.table.gz (29/85/fopen): adding to final database dump
+0610.433 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_cky_cookies.table.tmpr0.gz (30/85/fopen): adding to final database dump
+0610.436 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_cky_cookies.table.gz (31/85/fopen): adding to final database dump
+0610.439 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_background_task.table.tmpr11.gz (32/85/fopen): adding to final database dump
+0610.442 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_background_task.table.gz (33/85/fopen): adding to final database dump
+0610.448 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_content_status.table.tmpr0.gz (34/85/fopen): adding to final database dump
+0610.459 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_content_status.table.gz (35/85/fopen): adding to final database dump
+0610.462 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_core_status.table.tmpr0.gz (36/85/fopen): adding to final database dump
+0610.468 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_core_status.table.gz (37/85/fopen): adding to final database dump
+0610.472 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_flags.table.tmpr66.gz (38/85/fopen): adding to final database dump
+0610.475 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_flags.table.gz (39/85/fopen): adding to final database dump
+0610.476 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_languages.table.tmpr66.gz (40/85/fopen): adding to final database dump
+0610.483 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_languages.table.gz (41/85/fopen): adding to final database dump
+0610.488 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_languages_translations.table.tmpr4226.gz (42/85/fopen): adding to final database dump
+0610.492 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_languages_translations.table.gz (43/85/fopen): adding to final database dump
+0610.496 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_locale_map.table.tmpr1001.gz (44/85/fopen): adding to final database dump
+0610.501 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_locale_map.table.gz (45/85/fopen): adding to final database dump
+0610.504 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_message_status.table.tmpr0.gz (46/85/fopen): adding to final database dump
+0610.508 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_message_status.table.gz (47/85/fopen): adding to final database dump
+0610.512 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_mo_files_domains.table.tmpr28.gz (48/85/fopen): adding to final database dump
+0610.516 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_mo_files_domains.table.gz (49/85/fopen): adding to final database dump
+0610.519 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_node.table.tmpr0.gz (50/85/fopen): adding to final database dump
+0610.521 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_node.table.gz (51/85/fopen): adding to final database dump
+0610.524 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_reminders.table.tmpr0.gz (52/85/fopen): adding to final database dump
+0610.528 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_reminders.table.gz (53/85/fopen): adding to final database dump
+0610.532 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_string_batches.table.tmpr0.gz (54/85/fopen): adding to final database dump
+0610.535 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_string_batches.table.gz (55/85/fopen): adding to final database dump
+0610.539 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_string_packages.table.tmpr40.gz (56/85/fopen): adding to final database dump
+0610.541 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_string_packages.table.gz (57/85/fopen): adding to final database dump
+0610.544 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_string_positions.table.tmpr0.gz (58/85/fopen): adding to final database dump
+0610.548 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_string_positions.table.gz (59/85/fopen): adding to final database dump
+0610.551 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_string_status.table.tmpr0.gz (60/85/fopen): adding to final database dump
+0610.553 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_string_status.table.gz (61/85/fopen): adding to final database dump
+0610.556 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_string_translations.table.tmpr226.gz (62/85/fopen): adding to final database dump
+0610.560 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_string_translations.table.gz (63/85/fopen): adding to final database dump
+0610.564 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_strings.table.tmpr1438.gz (64/85/fopen): adding to final database dump
+0610.568 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_strings.table.gz (65/85/fopen): adding to final database dump
+0610.571 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_translate.table.tmpr1530.gz (66/85/fopen): adding to final database dump
+0610.573 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_translate.table.gz (67/85/fopen): adding to final database dump
+0610.578 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_translate_job.table.tmpr149.gz (68/85/fopen): adding to final database dump
+0610.582 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_translate_job.table.gz (69/85/fopen): adding to final database dump
+0610.585 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_translation_batches.table.tmpr50.gz (70/85/fopen): adding to final database dump
+0610.588 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_translation_batches.table.gz (71/85/fopen): adding to final database dump
+0610.590 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_translation_downloads.table.tmpr0.gz (72/85/fopen): adding to final database dump
+0610.593 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_translation_downloads.table.gz (73/85/fopen): adding to final database dump
+0610.596 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_translation_status.table.tmpr847.gz (74/85/fopen): adding to final database dump
+0610.600 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_translation_status.table.gz (75/85/fopen): adding to final database dump
+0610.603 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_translations.table.tmpr3148.gz (76/85/fopen): adding to final database dump
+0610.605 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_icl_translations.table.gz (77/85/fopen): adding to final database dump
+0610.609 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_redirection_404.table.tmpr0.gz (78/85/fopen): adding to final database dump
+0610.613 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_redirection_404.table.gz (79/85/fopen): adding to final database dump
+0610.616 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_redirection_groups.table.tmpr4.gz (80/85/fopen): adding to final database dump
+0610.619 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_redirection_groups.table.gz (81/85/fopen): adding to final database dump
+0610.622 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_redirection_items.table.tmpr150.gz (82/85/fopen): adding to final database dump
+0610.625 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_redirection_items.table.gz (83/85/fopen): adding to final database dump
+0610.628 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_redirection_logs.table.tmpr0.gz (84/85/fopen): adding to final database dump
+0610.631 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_redirection_logs.table.gz (85/85/fopen): adding to final database dump
+0610.634 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_sales_force_credentials.table.tmpr4.gz (86/85/fopen): adding to final database dump
+0610.636 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_sales_force_credentials.table.gz (87/85/fopen): adding to final database dump
+0610.639 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_snippets.table.tmpr0.gz (88/85/fopen): adding to final database dump
+0610.641 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_snippets.table.gz (89/85/fopen): adding to final database dump
+0610.644 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_wp_phpmyadmin_extension__errors_log.table.tmpr0.gz (90/85/fopen): adding to final database dump
+0610.647 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_wp_phpmyadmin_extension__errors_log.table.gz (91/85/fopen): adding to final database dump
+0610.648 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_wpfm_backup.table.tmpr0.gz (92/85/fopen): adding to final database dump
+0610.651 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_wpfm_backup.table.gz (93/85/fopen): adding to final database dump
+0610.653 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_yoast_indexable.table.tmpr2730.gz (94/85/fopen): adding to final database dump
+0610.658 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_yoast_indexable.table.gz (95/85/fopen): adding to final database dump
+0610.661 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_yoast_indexable_hierarchy.table.tmpr2001.gz (96/85/fopen): adding to final database dump
+0610.665 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_yoast_indexable_hierarchy.table.gz (97/85/fopen): adding to final database dump
+0610.669 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_yoast_migrations.table.tmpr25.gz (98/85/fopen): adding to final database dump
+0610.672 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_yoast_migrations.table.gz (99/85/fopen): adding to final database dump
+0610.679 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_yoast_primary_term.table.tmpr163.gz (100/85/fopen): adding to final database dump
+0610.682 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_yoast_primary_term.table.gz (101/85/fopen): adding to final database dump
+0610.684 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_yoast_seo_links.table.tmpr4.gz (102/85/fopen): adding to final database dump
+0610.690 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db-table-wp_yoast_seo_links.table.gz (103/85/fopen): adding to final database dump
+0610.705 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db.gz: finished writing out complete database file (5847.3 KB)
+0610.804 (2) Total database tables backed up: 51 (backup_2024-11-04-0627_SpinFire_d093150c2f58-db.gz, size: 5987710, sha1: b9e10a540074d2dc14948fa5004f7a44763d8c71, sha256: c14465e1220b2eee9815eb9e928c5cd3225ecf977803bc1330c8c351e2813ed3)
+0610.825 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-plugins.zip: plugins: This file has already been successfully uploaded
+0610.828 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-themes.zip: themes: This file has already been successfully uploaded
+0610.831 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads.zip: uploads: This file has already been successfully uploaded
+0610.833 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-uploads2.zip: uploads: This file has already been successfully uploaded
+0610.835 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-mu-plugins.zip: mu-plugins: This file has already been successfully uploaded
+0610.837 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-others.zip: others: This file has already been successfully uploaded
+0610.840 (2) backup_2024-11-04-0627_SpinFire_d093150c2f58-db.gz: db: This file has not yet been successfully uploaded: will queue
+0610.843 (2) Saving backup history. Total backup size: 855.3 MB
+0610.850 (2) Requesting upload of the files that have not yet been successfully uploaded (1)
+0610.861 (2) Cloud backup selection (1/1): none with instance (1/1) (last)
+0610.864 (2) No remote despatch: user chose no remote backup service
+0610.867 (2) Recording as successfully uploaded: backup_2024-11-04-0627_SpinFire_d093150c2f58-db.gz
+0610.879 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0610.882 (2) Number of backup sets in history: 3; groups (db): 1
+0610.886 (2) Examining (for databases) backup set with group_id=0, nonce=d093150c2f58, datestamp=1730701651 (Nov 04 2024 06:27:31)
+0610.889 (2) This backup set is the backup set just made, so will not be deleted.
+0610.889 (2) Examining (for databases) backup set with group_id=0, nonce=460c1423ee7d, datestamp=1723189974 (Aug 09 2024 07:52:54)
+0610.889 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0610.892 (2) Examining (for databases) backup set with group_id=0, nonce=9f79bab6e744, datestamp=1717501077 (Jun 04 2024 11:37:57)
+0610.892 (2) 1717501077: db: this set includes a database (backup_2024-06-04-1237_Actify_9f79bab6e744-db.gz); db count is now 2
+0610.892 (2) 1717501077: db: over retain limit (2); will delete this database
+0610.896 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+0610.900 (2) Number of backup sets in history: 3; groups (files): 1
+0610.902 (2) Examining (for files) backup set with nonce=d093150c2f58, datestamp=1730701651 (Nov 04 2024 06:27:31)
+0610.902 (2) This backup set is the backup set just made, so will not be deleted.
+0610.904 (2) This backup set is the backup set just made, so will not be deleted.
+0610.904 (2) This backup set is the backup set just made, so will not be deleted.
+0610.904 (2) This backup set is the backup set just made, so will not be deleted.
+0610.904 (2) This backup set is the backup set just made, so will not be deleted.
+0610.905 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0610.907 (2) Examining (for files) backup set with nonce=460c1423ee7d, datestamp=1723189974 (Aug 09 2024 07:52:54)
+0610.907 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0610.907 (2) Examining (for files) backup set with nonce=9f79bab6e744, datestamp=1717501077 (Jun 04 2024 11:37:57)
+0610.908 (2) plugins: over retain limit (2); will delete this file entity
+0610.908 (2) themes: over retain limit (2); will delete this file entity
+0610.908 (2) uploads: over retain limit (2); will delete this file entity
+0610.908 (2) others: over retain limit (2); will delete this file entity
+0610.911 (2) This backup set is now empty; will remove from history
+0610.914 (2) Corresponding log file (log.9f79bab6e744.txt) not found - must have already been deleted
+0610.916 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0610.926 (2) Resume backup (d093150c2f58, 2): finish run
+0610.932 (2) [Info] Lock option (updraft_lock_d093150c2f58, wp_options) released
+0610.936 (2) There were no errors in the uploads, so the 'resume' event (3) is being unscheduled
+0610.948 (2) No email will/can be sent - the user has not configured an email address.
+0610.951 (2) The backup succeeded (with warnings) and is now complete

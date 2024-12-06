@@ -1,0 +1,16 @@
+<?php 
+if(!isset($link) || !$link) return;
+if(!$link['url']) return;
+if(!$link['target']) $link['target'] = "";
+if(!$link['title']) $link['title'] = $link['url'];
+
+if(!isset($show_arrow)) $show_arrow = false;
+?>
+<a class="link hover:icon-shift-right text-[13px] md:text-[14px] tracking-[-0.0135em] font-medium inline-block text-blue hover:text-darkest-blue" href="{{ $link['url'] }}" target="{{ $link['target'] }}">
+	{{ $link['title'] }}
+	@if ($show_arrow)
+		<span class="animated-icon inline-block ml-2 relative top-[1px]">
+			@include('icons.arrow-right')
+		</span>
+	@endif
+</a>
